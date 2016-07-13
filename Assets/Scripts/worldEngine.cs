@@ -17,8 +17,8 @@ public class worldEngine : MonoBehaviour {
 		if (currentRoom == "Lobby") {
 			if (!isWeeb) {
 				textBuffer += "\nYou see the security guard."
-							+ "\nA smelly man clutching an anime body pillow approaches you, arm outstreched"
-							+ "\n\tlike the protean Adam to his Creator."
+							+ "\nA smelly man clutching an anime body pillow approaches you, arm outstreched "
+							+ "like the protean Adam to his Creator."
 							+ "\nThe security guard stares at his phone, unresponsive.";
 
 				textBuffer += "\npress [W] to go to the elevators";
@@ -75,7 +75,7 @@ public class worldEngine : MonoBehaviour {
 						+ "\nHe speaks, and the room temperature seems to drop.";
 			if (isWeeb) {
 				textBuffer += "\n\nAs he begins, however, he starts making the same sound over and over, "
-							+ "\n\tseveral times a second.  He seems...broken."
+							+ "several times a second.  He seems...broken."
 							+ "\nAs if to confirm your suspicion, a shaggy dog appears on his face where his lips were."
 							+ "\nIt barks at you."
 							+ "\nThe elevator doors shut, and the car begins to ascend."
